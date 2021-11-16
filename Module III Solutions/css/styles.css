@@ -1,0 +1,153 @@
+* {
+  /* 
+  box-sixing: border-box;
+  */
+}
+
+body {
+  background-color: #541261;
+  color: #fff;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#header-nav {
+  background-color: #f619a1;
+  border-radius: 0;
+  border: 0;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 2em;
+  color: #230e70;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+}
+
+#nav-list a:active {
+  border: none;
+  border-width: 0px;
+}
+
+#nav-list a {
+  text-align: center;
+  color: #26092c;
+}
+
+#nav-list a:hover {
+  background: #24e24d;
+}
+
+.glyphicon {
+  margin-right: 5px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 2px solid #27135e;
+}
+
+.section-background-color {
+  background-color: #49631f;
+}
+
+#waffles {
+  margin-right: 10px;
+  height: 800px;
+}
+
+#ice-tea {
+  margin-right: 10px;
+  height: 800px;
+}
+
+#donuts {
+  height: 800px;
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    width: 100%;
+  }
+
+  #ice-tea {
+    margin-top: 20px;
+  }
+}
+
+#donuts {
+  margin-top: 20px;
+}
+
+/*  Tablets */
+@media (min-width: 767px) and (max-width: 1199px) {
+  .col-md-6 {
+    width: 100%;
+  }
+
+  #ice-tea {
+    margin-top: 20px;
+  }
+
+  #donuts {
+    margin-top: 10px;
+  }
+
+  .internal-link {
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: #24e24d;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 767px) {
+  .row {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  h1 {
+    margin-left: 25px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  #company-name {
+    font-size: 2em;
+    color: #230e70;
+  }
+  .navbar-default .navbar-collapse {
+    border: none;
+    background-color: #309939;
+  }
+
+  #waffles {
+    margin-right: 50px;
+  }
+
+  #ice-tea {
+    margin: 20px 0px;
+  }
+
+  #donuts {
+    margin-top: 0px;
+  }
+
+  .internal-link {
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: yellowgreen;
+  }
+}
